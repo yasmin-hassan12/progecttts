@@ -1,0 +1,429 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica,Arial,sans-serif;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+  background-color: #000;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  color: #ffffff;
+}
+.logo img {
+  width:60px;
+  height: 60px;
+}
+.nav-links {
+  display: flex;
+  gap: 40px;
+}
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+.nav-links a.active,
+.nav-links a:hover {
+  color: #EFFE8A;
+}
+.hero {
+  text-align: center;
+  padding: 120px 30px 100px;
+  background-color: #000;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  margin-top: -30px;    
+  margin-bottom: 30px;
+  color:#ffffff ; 
+}
+
+.hero p {
+  font-size: .9rem;
+  color: #ffffff;
+  margin-bottom: 50px;  
+}
+
+.btn {
+  background-color: #EFFE8A;
+  color: #1c1c1b;
+  padding: 14px 32px;
+  font-size: .9rem;
+  border-radius: 25px;
+  text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #000;
+    color: #EFFE8A;
+  border: 1px solid #EFFE8A; 
+
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  padding: 60px 20px;
+  background-color: #000;
+}
+
+.images img {
+    width:450px;
+    margin-top: 100px;
+    object-fit: cover;
+}
+.about{
+   background-color: #EFFE8A;
+   height: 100%;
+   margin-top: -50px;
+}
+
+.container {
+  max-width: 100%;
+  margin: 40px auto;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  padding: 140px 20px;
+  position: relative;
+}
+ h2 {
+  font-size: 55px;
+  display: block;
+  position: relative;
+  top: 70px;
+  margin: 34px;
+  }
+.text-section {
+  max-width: 600px;
+  margin-left: 200px;
+}
+.small-text {
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+.main-text {
+  font-size: 1.3rem;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+.about img {
+ width: 300px;
+height: auto;
+margin-left: 30px;
+
+}
+.bttn {
+  background-color: #000000;
+  color: #EFFE8A;
+  padding: 14px 32px;
+  font-size: .9rem;
+  border-radius: 25px;
+  text-decoration: none;
+  margin-top: 300px;
+}
+
+.bttn:hover {
+    background-color: #EFFE8A;
+    color: #000;
+  border: 1px solid #000000; 
+
+}
+.Test{
+ margin: 50px;
+ margin-top: 30px;
+}
+h3 {
+  font-size: 50px;
+  margin-bottom: 10px;
+
+}
+.sub {
+  font-size: 1.1rem;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+.testi{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+  border-bottom: 1px solid #888;
+
+}
+
+.testii{
+ display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+  border-top: 1px solid #888;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+  border-bottom: 1px solid #888;
+  margin-top: 100px;
+
+
+}
+.testi:last-child {
+  border-bottom: none;
+  
+}
+
+.name {
+  text-align: left;
+  font-size: 25px;
+  align-self: center;
+ margin-left: 400px;
+ margin-top: -30px;
+
+}
+
+.text {
+  width: 40%;
+  text-align: left;
+  font-size: 1rem;
+}
+
+.how-it-works {
+    align-items: center;
+    padding: 60px 20px;
+    background-color: #000;
+    text-align: center;
+}
+.how-it-works h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.sube {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    color: #ccc;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.box {
+    padding: 40px;
+    position: relative;
+}
+.top-left,
+.bottom-left {
+    border-right: 1px solid #ffffff;
+}
+
+.top-left,
+.top-right {
+    border-bottom: 1px solid #ffffff;
+}
+
+
+.box h2 {
+    margin-bottom: 90px;
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+}
+
+.box h4 {
+    margin: 10px 0;
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+}
+
+.box p {
+    color: #ffffff;
+    text-align: center;
+    font-size: 21px;
+}
+
+.faq-section {
+    padding: 100px 20px;
+    background-color: #EFFE8A;
+    
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: -35px;
+}
+
+.faq {
+  margin-bottom: -63px;
+}
+
+.faq h2 {
+  font-size: 30px;
+  font-weight: normal;
+  margin-bottom: 100px;
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.faq p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #222;
+  text-align: center;
+    margin-left: 290px;
+}
+.faq1 h2 {
+  font-size: 30px;
+  font-weight: normal;
+  margin-bottom: 100px;
+  text-align: center;
+  margin-left: 231px;
+  margin-right: 110px;
+}
+.faq1 p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #222;
+  text-align: center;
+  margin-left:356px;
+}
+.faq2 h2 {
+  font-size: 30px;
+  font-weight: normal;
+  margin-top: -50px;
+  margin-bottom: 80px;
+  text-align: center;
+  margin-left: 135px;
+  margin-right: 110px;
+}
+.faq2 p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #222;
+  text-align: center;
+  margin-left:295px;
+
+}
+
+.contact-section {
+  max-width: 800px;
+  margin: 80px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.contact-section h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 20px;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.form-row {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form-row .form-group {
+  width: 48%;
+}
+
+label {
+  font-size: 16px;
+  margin-bottom: 6px;
+  text-align: left;
+}
+
+input,
+textarea {
+  border: none;
+  border-bottom: 2px solid #000;
+  padding: 10px 5px;
+  font-size: 16px;
+  outline: none;
+  background: transparent;
+}
+input:focus,
+textarea:focus {
+  border-bottom: 1px solid #EFFE8A;
+}
+
+ .btttn {
+  background-color: #000000;
+  color: #EFFE8A;
+  padding: 9px 60px;
+  font-size: 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  border: none;
+  margin: 30px auto 60px auto; /* فوق و تحت 30 و 60 بكسل */
+  display: block;
+  width: fit-content;
+  margin-right: 700px;
+}
+.btttn:hover {
+    background-color: #EFFE8A;
+    color: #000;
+
+}
+.footer {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 40px 60px;
+
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.logo img {
+  width: 35px;
+  height: 35px;
+
+}
+
+
